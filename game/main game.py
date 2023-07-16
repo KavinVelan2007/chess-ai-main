@@ -59,4 +59,4 @@ while game_running:
         elif (a,b) in position[24:32]:
             screen.blit(w_pawn, c)
     pygame.display.update()
-    clock.tick(60)
+    clock.tick()
