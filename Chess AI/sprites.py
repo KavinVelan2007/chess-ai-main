@@ -1,6 +1,5 @@
 import pygame
 from settings import *
-
 w = WIDTH // COLS
 h = HEIGHT // ROWS
 
