@@ -12,8 +12,8 @@ class Board:
 		self.board = [['' for i in range(self.cols)] for j in range(self.rows)]
 
 	def place_pieces(self):
-		'''for col in range(self.cols):
-			self.board[1][col] = Piece('pawn','black',1,1,col)
+		for col in range(self.cols):
+			'''self.board[1][col] = Piece('pawn','black',1,1,col)
 			self.board[6][col] = Piece('pawn','white',1,6,col)'''
 		self.board[4][1] = Piece('rook','black',5,4,1)
 		self.board[4][3] = Piece('rook','black',5,4,3)
