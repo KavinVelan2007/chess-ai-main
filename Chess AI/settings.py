@@ -1,0 +1,5 @@
+WIDTH = 750
+HEIGHT = 750
+ROWS = 8
+COLS = 8
+DEPTH = 2
