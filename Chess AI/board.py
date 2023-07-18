@@ -15,10 +15,10 @@ class Board:
 		'''for col in range(self.cols):
 			self.board[1][col] = Piece('pawn','black',1,1,col)
 			self.board[6][col] = Piece('pawn','white',1,6,col)'''
-		self.board[4][1] = Piece('rook','black',3,4,1)
-		self.board[4][3] = Piece('rook','black',3,4,3)
-		self.board[0][0] = Piece('rook','black',3,0,0)
-		self.board[0][7] = Piece('rook','black',3,0,7)
+		self.board[4][1] = Piece('rook','black',5,4,1)
+		self.board[4][3] = Piece('rook','black',5,4,3)
+		self.board[0][0] = Piece('rook','black',5,0,0)
+		self.board[0][7] = Piece('rook','black',5,0,7)
 		self.board[7][0] = Piece('rook','white',5,7,0)
 		self.board[7][7] = Piece('rook','white',5,7,7)
 		self.board[0][1] = Piece('knight','black',3,0,1)
